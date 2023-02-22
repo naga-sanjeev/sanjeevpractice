@@ -28,8 +28,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
-            ],
+              "src/styles.css",
+              "./node_modules/primeicons/primeicons.css",
+              "./node_modules/primeng/resources/themes/arya-purple/theme.css",
+              "./node_modules/primeng/resources/primeng.min.css"
+           ],
             "scripts": []
           },
           "configurations": {
@@ -124,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "bestpractice"
+  "defaultProject": "bestpractice",
+  "cli": {
+    "analytics": "94b74436-f3a1-4d9f-96c6-ba7625965466"
+  }
 }
